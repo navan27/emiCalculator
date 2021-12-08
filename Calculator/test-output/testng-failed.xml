@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Appium.Calculator.emiCalculator">
+        <methods>
+          <include name="case1mEMI"/>
+          <include name="case2tPayment"/>
+          <include name="case5tInterest"/>
+          <include name="case3tPayment"/>
+          <include name="initialize"/>
+          <include name="case2tInterest"/>
+          <include name="case1tPayment"/>
+          <include name="case2mEMI"/>
+          <include name="case5mEMI"/>
+          <include name="case1tInterest"/>
+          <include name="case5tPayment"/>
+          <include name="case3tInterest"/>
+          <include name="case4mEMI"/>
+          <include name="case3mEMI"/>
+          <include name="case4tInterest"/>
+          <include name="case4tPayment"/>
+        </methods>
+      </class> <!-- Appium.Calculator.emiCalculator -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
